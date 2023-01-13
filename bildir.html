@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bildiri sayfası</title>
+  <link rel="stylesheet" href="websitem.css">
+  <style>
+body{ 
+    background-image: url("hd-wallpaper-g952370720_1920.jpg");  
+    height: 99vh;
+    display: grid;
+    grid-template-areas: "header header " 
+                          "article section "                         
+                          "n a";
+  } 
+  header{
+   grid-area: header;
+   
+ 
+   
+  }
+  header > h1{
+    text-align: center;
+    color: rgb(114, 217, 224);
+    text-align: start;
+  }
+  article
+  {
+     grid-area: article;
+      color: chartreuse;
+    
+   
+  }
+  #n{
+    grid-area: n;
+    
+    
+  }
+
+  section{
+    grid-area: section; 
+    
+  }
+  #a
+  {
+    grid-area: a; 
+    
+  }
+  input
+  {
+    width: 500px;
+    
+  }
+  textarea
+  {
+    width: 350px;
+    height: 350px;
+    
+  }
+  .buton
+  {
+    width: 100px;
+  }
+
+  
+  
+    
+  </style>
+
+</head>
+<body>
+  <header><h1>bildiri sayfası</h1></header>
+  <article>isim soyisim</article>
+  <section> <input name="isim" type="text"></section> 
+  <article id="n">mesaj</article> 
+  <section id="a"> <textarea name="textarea" ></textarea> <input type="submit" class="buton" value="gönder"></section>
+  
+
+</body>
+</html>
